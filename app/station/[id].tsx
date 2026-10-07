@@ -1,10 +1,11 @@
 import { Ionicons } from '@expo/vector-icons';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
-import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert, Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { AmenityGrid } from '../../components/AmenityGrid';
 import { OpenStatusBadge } from '../../components/OpenStatusBadge';
+import { getDemoContactPhone, getDemoContactTelUrl } from '../../lib/demoContact';
 import { openDirections } from '../../lib/directions';
 import { useFavorites } from '../../lib/favorites';
 import { notifyStationArrival } from '../../lib/geofencing';
@@ -68,6 +69,9 @@ export default function StationDetailScreen() {
     router.push('/');
   };
 
+  const demoPhone = getDemoContactPhone(station.id);
+  const handleCall = () => Linking.openURL(getDemoContactTelUrl(station.id));
+
   return (
     <SafeAreaView edges={['bottom']} style={styles.screen}>
       <Stack.Screen options={{ title: station.name }} />
@@ -95,6 +99,11 @@ export default function StationDetailScreen() {
           <View style={styles.badgeRow}>
             <OpenStatusBadge station={station} />
           </View>
+
+          <Pressable onPress={handleCall} style={styles.contactRow}>
+            <Ionicons name="call-outline" size={16} color={colors.onSurfaceVariant} />
+            <Text style={[typography.bodyMd, styles.infoText]}>{demoPhone}</Text>
+          </Pressable>
 
           {station.comments && (
             <View style={styles.commentBox}>
@@ -219,6 +228,12 @@ const styles = StyleSheet.create({
   },
   badgeRow: {
     marginTop: spacing.xs + 2,
+  },
+  contactRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginTop: spacing.sm,
   },
   commentBox: {
     marginTop: spacing.sm,

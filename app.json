@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "goil-app",
+    "name": "Find Goil",
     "slug": "goil-app",
     "version": "1.0.0",
     "scheme": "goilapp",
@@ -12,6 +12,8 @@
       "bundleIdentifier": "com.yoselorm.goil-app",
       "infoPlist": {
         "UIBackgroundModes": [
+          "location",
+          "location",
           "location",
           "location"
         ],
@@ -29,6 +31,9 @@
       },
       "predictiveBackGestureEnabled": false,
       "permissions": [
+        "ACCESS_BACKGROUND_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
         "ACCESS_BACKGROUND_LOCATION",
         "android.permission.ACCESS_COARSE_LOCATION",
         "android.permission.ACCESS_FINE_LOCATION"
@@ -70,6 +75,12 @@
         "projectId": "bea34647-e021-4fe8-aa6d-e81a87c04b99"
       }
     },
-    "owner": "yoselorm"
+    "owner": "yoselorm",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bea34647-e021-4fe8-aa6d-e81a87c04b99"
+    }
   }
 }

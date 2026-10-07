@@ -3,6 +3,7 @@ import { router } from 'expo-router';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import MapView, { Circle, Marker, Polyline } from 'react-native-maps';
+import Animated, { FadeIn, FadeOut, LinearTransition } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { FuelPin } from '../../components/FuelPin';
@@ -40,13 +41,14 @@ const AMENITY_LABELS: { key: keyof Station['amenities']; label: string }[] = [
 
 export default function MapScreen() {
   const { stations, loading } = useStations();
-  const { location } = useCurrentLocation();
+  const { location, permissionDenied } = useCurrentLocation();
   const { name: locationName, loading: locationNameLoading } = useLocationName(location);
   const { searchRadiusKm, setSearchRadiusKm } = useFilterState();
   const { activeRouteStationId, clearRoute } = useRouteState();
   const [selected, setSelected] = useState<Station | null>(null);
   const [route, setRoute] = useState<RouteResult | null>(null);
   const [routeLoading, setRouteLoading] = useState(false);
+  const [radiusExpanded, setRadiusExpanded] = useState(false);
   const mapRef = useRef<MapView>(null);
   const hasCentered = useRef(false);
 
@@ -183,8 +185,17 @@ export default function MapScreen() {
         </View>
       )}
 
+      {!location && !permissionDenied && !routeLoading && (
+        <View style={styles.routeLoadingOverlay} pointerEvents="none">
+          <View style={styles.routeLoadingCard}>
+            <ActivityIndicator size="small" color={colors.secondary} />
+            <Text style={[typography.bodyMd, styles.routeLoadingText]}>Finding your location…</Text>
+          </View>
+        </View>
+      )}
+
       <SafeAreaView edges={['top']} style={styles.topOverlay}>
-        <View style={styles.radiusCard}>
+        <Animated.View style={styles.radiusCard} layout={LinearTransition.duration(250)}>
           <View style={styles.locationRow}>
             <Ionicons name="location" size={14} color={colors.secondary} />
             {locationNameLoading && !locationName ? (
@@ -195,22 +206,45 @@ export default function MapScreen() {
               </Text>
             )}
           </View>
-          <RadiusSlider
-            label="Search radius"
-            value={searchRadiusKm}
-            minimumValue={0}
-            maximumValue={10}
-            step={0.5}
-            unit="km"
-            onValueChange={setSearchRadiusKm}
-            formatValue={(v) => v.toFixed(1)}
-          />
-          <Text style={[typography.bodySm, styles.hint]}>
-            {location
-              ? 'Grayed-out pins are outside your radius.'
-              : 'Enable location to highlight stations near you.'}
-          </Text>
-        </View>
+
+          <Pressable
+            onPress={() => setRadiusExpanded((v) => !v)}
+            style={styles.radiusToggleRow}>
+            <Text style={[typography.bodyMd, styles.radiusToggleLabel]}>Proximity radius</Text>
+            <View style={styles.radiusToggleRight}>
+              <Text style={[typography.bodySm, styles.radiusToggleValue]}>
+                {searchRadiusKm.toFixed(1)} km
+              </Text>
+              <Ionicons
+                name={radiusExpanded ? 'chevron-up' : 'chevron-down'}
+                size={16}
+                color={colors.onSurfaceVariant}
+              />
+            </View>
+          </Pressable>
+
+          {radiusExpanded && (
+            <Animated.View
+              entering={FadeIn.duration(200)}
+              exiting={FadeOut.duration(150)}
+              style={styles.radiusExpandedContent}>
+              <RadiusSlider
+                value={searchRadiusKm}
+                minimumValue={0}
+                maximumValue={10}
+                step={0.5}
+                unit="km"
+                onValueChange={setSearchRadiusKm}
+                formatValue={(v) => v.toFixed(1)}
+              />
+              <Text style={[typography.bodySm, styles.hint]}>
+                {location
+                  ? 'Grayed-out pins are outside your radius.'
+                  : 'Enable location to highlight stations near you.'}
+              </Text>
+            </Animated.View>
+          )}
+        </Animated.View>
       </SafeAreaView>
 
       {selected && (
@@ -346,6 +380,25 @@ const styles = StyleSheet.create({
     color: colors.secondary,
     textTransform: 'none',
     flexShrink: 1,
+  },
+  radiusToggleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  radiusToggleLabel: {
+    color: colors.onSurface,
+  },
+  radiusToggleRight: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.xs,
+  },
+  radiusToggleValue: {
+    color: colors.primaryContainer,
+  },
+  radiusExpandedContent: {
+    marginTop: spacing.sm,
   },
   hint: {
     marginTop: spacing.xs,

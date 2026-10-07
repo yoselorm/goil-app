@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { colors, radius, spacing, typography } from '../src/theme';
 
 interface RadiusSliderProps {
-  label: string;
+  label?: string;
   sublabel?: string;
   value: number;
   minimumValue: number;
@@ -30,18 +30,20 @@ export function RadiusSlider({
 }: RadiusSliderProps) {
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <View style={styles.labelBlock}>
-          <Text style={[typography.headlineSm, styles.label]}>{label}</Text>
-          {sublabel ? <Text style={[typography.bodySm, styles.sublabel]}>{sublabel}</Text> : null}
+      {label && (
+        <View style={styles.header}>
+          <View style={styles.labelBlock}>
+            <Text style={[typography.headlineSm, styles.label]}>{label}</Text>
+            {sublabel ? <Text style={[typography.bodySm, styles.sublabel]}>{sublabel}</Text> : null}
+          </View>
+          <View style={styles.valueBlock}>
+            <Text style={[typography.displayDistance, styles.value]}>
+              {formatValue ? formatValue(value) : value}
+            </Text>
+            <Text style={[typography.labelDistanceUnit, styles.unit]}>{unit}</Text>
+          </View>
         </View>
-        <View style={styles.valueBlock}>
-          <Text style={[typography.displayDistance, styles.value]}>
-            {formatValue ? formatValue(value) : value}
-          </Text>
-          <Text style={[typography.labelDistanceUnit, styles.unit]}>{unit}</Text>
-        </View>
-      </View>
+      )}
       <Slider
         minimumValue={minimumValue}
         maximumValue={maximumValue}

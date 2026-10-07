@@ -1,0 +1,4155 @@
+[
+  {
+    "id": "SOUTH-001",
+    "name": "ACP",
+    "zone": "SOUTH",
+    "gpsAddress": "GW-0375-6750",
+    "latitude": 5.68992,
+    "longitude": -0.26197,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": "Laundry"
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-002",
+    "name": "Kwabenya Taxi Rank",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-289-8738",
+    "latitude": 5.66689,
+    "longitude": -0.23861,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "12:00 AM",
+      "is24Hours": false
+    },
+    "comments": "Station has a shop but not operated as a GO Café."
+  },
+  {
+    "id": "SOUTH-003",
+    "name": "Pokuase",
+    "zone": "SOUTH",
+    "gpsAddress": "GG-121-5594",
+    "latitude": 5.61882,
+    "longitude": -0.29445,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": "Station has a shop but not operated as a GO Café."
+  },
+  {
+    "id": "SOUTH-004",
+    "name": "Mayera",
+    "zone": "SOUTH",
+    "gpsAddress": "GG-0053-3679",
+    "latitude": 5.7182,
+    "longitude": -0.28133,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-005",
+    "name": "Ashongman City",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-231-1562",
+    "latitude": 5.70471,
+    "longitude": -0.22388,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": "There is a washing bay, and a restaurant but not operated under GOIL."
+  },
+  {
+    "id": "SOUTH-006",
+    "name": "Akweteyman",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-351-1749",
+    "latitude": 5.60893,
+    "longitude": -0.24176,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-007",
+    "name": "Race Course",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-495-9297",
+    "latitude": 5.60659,
+    "longitude": -0.26085,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-008",
+    "name": "Tabora",
+    "zone": "SOUTH",
+    "gpsAddress": "GW-1226-8740",
+    "latitude": 5.61264,
+    "longitude": -0.26108,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-009",
+    "name": "Capital",
+    "zone": "SOUTH",
+    "gpsAddress": "GG-994-2887",
+    "latitude": 5.63741,
+    "longitude": -0.28151,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-010",
+    "name": "Lapaz / N1",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-464-2137",
+    "latitude": 5.60389,
+    "longitude": -0.25505,
+    "products": [
+      "SXP 91",
+      "SXP 95"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-011",
+    "name": "Coca Cola",
+    "zone": "SOUTH",
+    "gpsAddress": "GZ-207-7407",
+    "latitude": 5.64302,
+    "longitude": -0.11343,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-012",
+    "name": "Ashaley Botwe Highway",
+    "zone": "SOUTH",
+    "gpsAddress": "GD-089-2748",
+    "latitude": 5.68533,
+    "longitude": -0.138,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "12:00 AM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-013",
+    "name": "Santoe",
+    "zone": "SOUTH",
+    "gpsAddress": "GK-0737-8030",
+    "latitude": 5.68902,
+    "longitude": -0.09969,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "5:00 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-014",
+    "name": "Adjringanor",
+    "zone": "SOUTH",
+    "gpsAddress": "GD-137-5996",
+    "latitude": 5.65916,
+    "longitude": -0.13207,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-015",
+    "name": "Ashaley Botwe Main",
+    "zone": "SOUTH",
+    "gpsAddress": "GD-143-0102",
+    "latitude": 5.68326,
+    "longitude": -0.13019,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "5:00 AM",
+      "closing": "11:30 PM",
+      "is24Hours": false
+    },
+    "comments": "Station has a shop but not operated as a GO Café."
+  },
+  {
+    "id": "SOUTH-016",
+    "name": "Spintex Printex Junction",
+    "zone": "SOUTH",
+    "gpsAddress": "GZ-203-3861",
+    "latitude": 5.64087,
+    "longitude": -0.11945,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-017",
+    "name": "Spintex Road",
+    "zone": "SOUTH",
+    "gpsAddress": "GZ-195-0313",
+    "latitude": 5.63429,
+    "longitude": -0.13459,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-018",
+    "name": "Amamole",
+    "zone": "SOUTH",
+    "gpsAddress": "GG-448-2964",
+    "latitude": 5.66357,
+    "longitude": -0.29961,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": true,
+      "lpgExchange": false,
+      "others": "Gym"
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-019",
+    "name": "Nsunfa",
+    "zone": "SOUTH",
+    "gpsAddress": "GC-068-4469",
+    "latitude": 5.61882,
+    "longitude": -0.29445,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-020",
+    "name": "Ayawaso",
+    "zone": "SOUTH",
+    "gpsAddress": "GW-0288-4445",
+    "latitude": 5.67171,
+    "longitude": -0.29445,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": true,
+      "restaurant": true,
+      "lpgExchange": false,
+      "others": "Gym"
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-021",
+    "name": "Ablekuma Main",
+    "zone": "SOUTH",
+    "gpsAddress": "GC-105-2882",
+    "latitude": 5.62405,
+    "longitude": -0.30442,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-022",
+    "name": "Awoshie",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-071-8142",
+    "latitude": 5.58613,
+    "longitude": -0.27931,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-023",
+    "name": "Gbawe Zero",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0078-6633",
+    "latitude": 5.59022,
+    "longitude": -0.31142,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-024",
+    "name": "Awoshie / Anyaa",
+    "zone": "SOUTH",
+    "gpsAddress": "GC-073-0250",
+    "latitude": 5.59998,
+    "longitude": -0.29184,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-025",
+    "name": "Mallam Junction",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0330-5872",
+    "latitude": 5.56948,
+    "longitude": -0.28483,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-026",
+    "name": "Dansoman Roundabout",
+    "zone": "SOUTH",
+    "gpsAddress": "GU-537-9429",
+    "latitude": 5.55855,
+    "longitude": -0.26525,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": false,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "12:00 AM",
+      "is24Hours": false
+    },
+    "comments": "Station's GO Café not operated by dealer."
+  },
+  {
+    "id": "SOUTH-027",
+    "name": "Dansoman Main",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-540-0085",
+    "latitude": 5.54308,
+    "longitude": -0.26498,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "12:00 AM",
+      "is24Hours": false
+    },
+    "comments": "Station has a vehicle service and tyre center but not operated by dealer."
+  },
+  {
+    "id": "SOUTH-028",
+    "name": "Kaneshie Market",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-263-2734",
+    "latitude": 5.56323,
+    "longitude": -0.22323,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "12:00 AM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-029",
+    "name": "Kasoa Broadcasting",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-0123-0278",
+    "latitude": 5.55164,
+    "longitude": -0.35913,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": "There is a washing bay, and a restaurant but not operated under GOIL."
+  },
+  {
+    "id": "SOUTH-030",
+    "name": "Liberia Road",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-105-2052",
+    "latitude": 5.55509,
+    "longitude": -0.21018,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-031",
+    "name": "Circle Overhead",
+    "zone": "SOUTH",
+    "gpsAddress": "G2-100-4695",
+    "latitude": 5.6038,
+    "longitude": -0.25498,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": "Station has a space for GO Café but not operated."
+  },
+  {
+    "id": "SOUTH-032",
+    "name": "Weija White Cross",
+    "zone": "SOUTH",
+    "gpsAddress": "GJ-0132-0120",
+    "latitude": 5.55365,
+    "longitude": -0.31883,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-033",
+    "name": "Weija",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0132-0120",
+    "latitude": 5.55365,
+    "longitude": -0.31883,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-034",
+    "name": "STC",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-175-0125",
+    "latitude": 5.56287,
+    "longitude": -0.22451,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-035",
+    "name": "Atico Junction / Kaneshie Odorkor",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-399-6061",
+    "latitude": 5.57349,
+    "longitude": -0.24881,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-036",
+    "name": "Guggisberg Avenue",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-368-9797",
+    "latitude": 5.53449,
+    "longitude": -0.24247,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-037",
+    "name": "Link Road / Lartebiokorshie",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-316-5877",
+    "latitude": 5.56071,
+    "longitude": -0.22195,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-038",
+    "name": "Mallam Market",
+    "zone": "SOUTH",
+    "gpsAddress": "GF-591-7567",
+    "latitude": 5.5739,
+    "longitude": -0.27964,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": "Cosmetics"
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-039",
+    "name": "Korle Gonno",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-324-5185",
+    "latitude": 5.52958,
+    "longitude": -0.22676,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-040",
+    "name": "Darkuman Post Office",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-432-0367",
+    "latitude": 5.58725,
+    "longitude": -0.25137,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-041",
+    "name": "Addy Junction",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-530-9586",
+    "latitude": 5.5881,
+    "longitude": -0.26521,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": true,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-042",
+    "name": "Darkuman Kokompe",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-434-6207",
+    "latitude": 5.58851,
+    "longitude": -0.25092,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-043",
+    "name": "Darkuman Main",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-432-1399",
+    "latitude": 5.58869,
+    "longitude": -0.25092,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-044",
+    "name": "Odorkor Main",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-531-0552",
+    "latitude": 5.58657,
+    "longitude": -0.26476,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-045",
+    "name": "Odorkor Busia",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-558-4229",
+    "latitude": 5.58104,
+    "longitude": -0.26759,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-046",
+    "name": "Kwabenya Main",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-290-9363",
+    "latitude": 5.66802,
+    "longitude": -0.23835,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": true,
+      "restaurant": true,
+      "lpgExchange": true,
+      "others": "Laundry"
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "12:00 AM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-047",
+    "name": "Taifa",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-332-3412",
+    "latitude": 5.65224,
+    "longitude": -0.24549,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": "Laundry"
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-048",
+    "name": "Taifa Ghaneema",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-331-9222",
+    "latitude": 5.65268,
+    "longitude": -0.25187,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-049",
+    "name": "Dome Market",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-334-1454",
+    "latitude": 5.65412,
+    "longitude": -0.2374,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": "Tyre center and shop operated by the dealer."
+  },
+  {
+    "id": "SOUTH-050",
+    "name": "Berekuso",
+    "zone": "SOUTH",
+    "gpsAddress": null,
+    "latitude": null,
+    "longitude": null,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-051",
+    "name": "Ashongman",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-082-1579",
+    "latitude": 5.70471,
+    "longitude": -0.22388,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-052",
+    "name": "Madina Estate",
+    "zone": "SOUTH",
+    "gpsAddress": "GM-008-4562",
+    "latitude": 5.67247,
+    "longitude": -0.15965,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": true,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-053",
+    "name": "La-Nkwatanang",
+    "zone": "SOUTH",
+    "gpsAddress": "GM-045-0967",
+    "latitude": 5.68618,
+    "longitude": -0.18373,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-054",
+    "name": "Adenta Aviation",
+    "zone": "SOUTH",
+    "gpsAddress": "GD-089-2444",
+    "latitude": 5.68515,
+    "longitude": -0.13814,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "5:00 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-055",
+    "name": "Aviation 1",
+    "zone": "SOUTH",
+    "gpsAddress": "GD-023-5089",
+    "latitude": 5.68717,
+    "longitude": -0.15943,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": true,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-056",
+    "name": "Agbogba",
+    "zone": "SOUTH",
+    "gpsAddress": "GM-080-7869",
+    "latitude": 5.68627,
+    "longitude": -0.1941,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-057",
+    "name": "Abladjei",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-065-1446",
+    "latitude": 5.71222,
+    "longitude": -0.20596,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": "Station has a shop but is neither operated by the dealer nor functioning as a GO Café."
+  },
+  {
+    "id": "SOUTH-058",
+    "name": "Nima R / A",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-026-2157",
+    "latitude": 5.56699,
+    "longitude": -0.19582,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-059",
+    "name": "Circle Caprice",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-099-7331",
+    "latitude": 5.57663,
+    "longitude": -0.21679,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": "GO Café doubles as pharmacy."
+  },
+  {
+    "id": "SOUTH-060",
+    "name": "Ofankor",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-317-3942",
+    "latitude": 5.65808,
+    "longitude": -0.25874,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": true,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-061",
+    "name": "Tantra Hill",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-352-9660",
+    "latitude": 5.6454,
+    "longitude": -0.24719,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "12:00 AM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-062",
+    "name": "Weija Old Barrier",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0131-0998",
+    "latitude": 5.55266,
+    "longitude": -0.32297,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-063",
+    "name": "Mile 11",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0164-6187",
+    "latitude": 5.54767,
+    "longitude": -0.34758,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-064",
+    "name": "New Bortianor",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0163-8102",
+    "latitude": 5.54834,
+    "longitude": -0.35117,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": true,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": "Station has a washing bay and restaurant but not operated by the dealer."
+  },
+  {
+    "id": "SOUTH-065",
+    "name": "Weija Korkorjor",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0124-2051",
+    "latitude": null,
+    "longitude": null,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": true,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": "Station has a restaurant; however it is not being operated by the dealer."
+  },
+  {
+    "id": "SOUTH-066",
+    "name": "Kakraba Nyanyanor",
+    "zone": "SOUTH",
+    "gpsAddress": "CG-0591-5987",
+    "latitude": 5.52967,
+    "longitude": -0.42403,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "12:00 AM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-067",
+    "name": "Kasoa Iron City",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0687-7639",
+    "latitude": 5.53651,
+    "longitude": -0.4053,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": "Station has a washing bay and a GO Café but not operated by the dealer."
+  },
+  {
+    "id": "SOUTH-068",
+    "name": "Kasoa Galilea",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0622-3895",
+    "latitude": 5.53903,
+    "longitude": -0.39802,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": true,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": "Station has a washing bay and a lube bay but not operated by the dealer (both are behind the station)."
+  },
+  {
+    "id": "SOUTH-069",
+    "name": "Kasoa Kokrobite",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0760-1785",
+    "latitude": null,
+    "longitude": null,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": "Station has a GO Café but not operated by the dealer."
+  },
+  {
+    "id": "SOUTH-070",
+    "name": "Tuba",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0423-7099",
+    "latitude": null,
+    "longitude": null,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": "Station has a vehicle service center and a GO Café but not operated by the dealer."
+  },
+  {
+    "id": "SOUTH-071",
+    "name": "Kasoa City",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0804-8207",
+    "latitude": null,
+    "longitude": null,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-072",
+    "name": "Ngleshie Amanfrom",
+    "zone": "SOUTH",
+    "gpsAddress": null,
+    "latitude": null,
+    "longitude": null,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": true,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": "Washing bay is currently under construction."
+  },
+  {
+    "id": "SOUTH-073",
+    "name": "Krispo City",
+    "zone": "SOUTH",
+    "gpsAddress": "CG-1021-8034",
+    "latitude": 5.54528,
+    "longitude": -0.45902,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-074",
+    "name": "Touga Junction",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0772-8126",
+    "latitude": 5.66186,
+    "longitude": -0.36465,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-075",
+    "name": "Denchira",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0671-2391",
+    "latitude": 5.61531,
+    "longitude": -0.40319,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-076",
+    "name": "Kasoa Obuom",
+    "zone": "SOUTH",
+    "gpsAddress": "CX-018-5477",
+    "latitude": 5.54722,
+    "longitude": -0.41976,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-077",
+    "name": "Kasoa Opeikuma",
+    "zone": "SOUTH",
+    "gpsAddress": "CX-035-5202",
+    "latitude": 5.53934,
+    "longitude": -0.44231,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-078",
+    "name": "Kasoa New Market",
+    "zone": "SOUTH",
+    "gpsAddress": "CX-004-6524",
+    "latitude": 5.54033,
+    "longitude": -0.42825,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-079",
+    "name": "Kasoa Nyanyanor (Shelleyco)",
+    "zone": "SOUTH",
+    "gpsAddress": "CG-0591-6086",
+    "latitude": 5.52963,
+    "longitude": -0.42398,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-080",
+    "name": "Nyanyano Adade",
+    "zone": "SOUTH",
+    "gpsAddress": "CG-1533-5634",
+    "latitude": 5.50479,
+    "longitude": -0.43315,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-081",
+    "name": "Nyanyano Town",
+    "zone": "SOUTH",
+    "gpsAddress": "CG-1845-3980",
+    "latitude": 5.47537,
+    "longitude": -0.42043,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-082",
+    "name": "Oduponkpehe",
+    "zone": "SOUTH",
+    "gpsAddress": "CG-0458-0495",
+    "latitude": 5.52553,
+    "longitude": -0.45794,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": true,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-083",
+    "name": "Kasoa Toll Booth",
+    "zone": "SOUTH",
+    "gpsAddress": "GS-0418-8941",
+    "latitude": 5.5456,
+    "longitude": -0.38675,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": false,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "12:30 AM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-084",
+    "name": "Sector 23",
+    "zone": "SOUTH",
+    "gpsAddress": "CG-1021-3574",
+    "latitude": null,
+    "longitude": null,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-085",
+    "name": "Kisseman",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-344-1947",
+    "latitude": 5.63582,
+    "longitude": -0.21472,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": false,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-086",
+    "name": "Haatso",
+    "zone": "SOUTH",
+    "gpsAddress": "GE-298-0446",
+    "latitude": 5.66725,
+    "longitude": -0.20192,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": false,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-087",
+    "name": "Madina Zongo Junction",
+    "zone": "SOUTH",
+    "gpsAddress": "GM-017-4128",
+    "latitude": 5.67544,
+    "longitude": -0.17331,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": false,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "10:30 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-088",
+    "name": "North Legon",
+    "zone": "SOUTH",
+    "gpsAddress": "GM-049-4244",
+    "latitude": 5.66696,
+    "longitude": -0.18648,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-089",
+    "name": "Christian Village",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-388-7684",
+    "latitude": 5.63749,
+    "longitude": -0.21665,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": false,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:00 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-090",
+    "name": "Presec",
+    "zone": "SOUTH",
+    "gpsAddress": "GM-034-4684",
+    "latitude": 5.66028,
+    "longitude": -0.17742,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-091",
+    "name": "Kpeshie",
+    "zone": "SOUTH",
+    "gpsAddress": "GZ-185-5819",
+    "latitude": 5.5671,
+    "longitude": -0.13212,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-092",
+    "name": "Tse Addo",
+    "zone": "SOUTH",
+    "gpsAddress": "GL-051-5893",
+    "latitude": 5.57492,
+    "longitude": -0.1411,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-093",
+    "name": "South La",
+    "zone": "SOUTH",
+    "gpsAddress": "GL-005-2894",
+    "latitude": 5.55698,
+    "longitude": -0.1694,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "11:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-094",
+    "name": "Cantonments",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-056-5812",
+    "latitude": null,
+    "longitude": null,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-095",
+    "name": "Burma Camp",
+    "zone": "SOUTH",
+    "gpsAddress": "GL-054-3292",
+    "latitude": 5.57938,
+    "longitude": -0.15575,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": true,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-096",
+    "name": "Batsona",
+    "zone": "SOUTH",
+    "gpsAddress": "GQ-367-4830",
+    "latitude": 5.63056,
+    "longitude": -0.09214,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-097",
+    "name": "Juba",
+    "zone": "SOUTH",
+    "gpsAddress": "GL-089-7050",
+    "latitude": 5.59098,
+    "longitude": -0.16302,
+    "products": [
+      "SXP 91"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "6:00 AM",
+      "closing": "8:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-098",
+    "name": "Liberation Road",
+    "zone": "SOUTH",
+    "gpsAddress": "GL-105-8898",
+    "latitude": 5.59316,
+    "longitude": -0.18019,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "12:00 AM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTH-099",
+    "name": "Palladium",
+    "zone": "SOUTH",
+    "gpsAddress": "GA-224-9651",
+    "latitude": 5.54148,
+    "longitude": -0.21554,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30 AM",
+      "closing": "10:00 PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "WEST-001",
+    "name": "APREMDO",
+    "zone": "WEST",
+    "gpsAddress": "WK-675-1453",
+    "latitude": 4.90675,
+    "longitude": -1.80047,
+    "products": [
+      "SXP91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "5AM",
+      "closing": "10PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "WEST-002",
+    "name": "APOWA",
+    "zone": "WEST",
+    "gpsAddress": "WH-2004-7535",
+    "latitude": 4.89242,
+    "longitude": -1.82468,
+    "products": [
+      "SXP91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "5AM",
+      "closing": "10PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "WEST-003",
+    "name": "ABOADZE (AGONA NKWANTA)",
+    "zone": "WEST",
+    "gpsAddress": "WH-0231-8943",
+    "latitude": 4.89279,
+    "longitude": -1.93185,
+    "products": [
+      "SXP91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "5AM",
+      "closing": "10PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "TEMA-001",
+    "name": "AFIENYA TOLLBOOTH",
+    "zone": "TEMA",
+    "gpsAddress": "GN-1019-7669",
+    "latitude": 5.79417,
+    "longitude": 0.00344,
+    "products": [
+      "SXP91",
+      "SXP95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": false,
+      "atm": true,
+      "pharmacy": true,
+      "restaurant": true,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30A.M",
+      "closing": "10:30PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "TEMA-002",
+    "name": "DAWHENYA-ADJUMADOR",
+    "zone": "TEMA",
+    "gpsAddress": "GN-0655-7516",
+    "latitude": 5.78731,
+    "longitude": 0.02585,
+    "products": [
+      "SXP91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": true
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30A.M",
+      "closing": "10:30PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "TEMA-003",
+    "name": "GBETSILE",
+    "zone": "TEMA",
+    "gpsAddress": "GT-007-0647",
+    "latitude": 5.75286,
+    "longitude": -0.0091,
+    "products": [
+      "SXP91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": false,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30A.M",
+      "closing": "10:30PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "UMBZ-001",
+    "name": "OFFINSO DENASE",
+    "zone": "UMBZ",
+    "gpsAddress": "AF-0129-6912",
+    "latitude": 6.84313,
+    "longitude": -1.64995,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "4:30am",
+      "closing": "9pm",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "UMBZ-002",
+    "name": "OFFINSO TUTUASE",
+    "zone": "UMBZ",
+    "gpsAddress": "A7-0047-6713",
+    "latitude": 6.92842,
+    "longitude": -1.66334,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": false,
+      "coupons": false,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "5am",
+      "closing": "9:30pm",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "UMBZ-003",
+    "name": "OFFINSO ABOFOUR",
+    "zone": "UMBZ",
+    "gpsAddress": "A7-1784-7860",
+    "latitude": 7.13298,
+    "longitude": -1.73453,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "24hrs",
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "NORTH-001",
+    "name": "RIVOLI S/S",
+    "zone": "NORTH",
+    "gpsAddress": "NT-0000-5175",
+    "latitude": 9.40655,
+    "longitude": -0.8421,
+    "products": [
+      "SXP91",
+      "SXP95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": true,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "24HRS",
+      "closing": null,
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "NORTH-002",
+    "name": "DUNGU S/S",
+    "zone": "NORTH",
+    "gpsAddress": "NT-0114-3524",
+    "latitude": 9.3818,
+    "longitude": -0.86528,
+    "products": [
+      "SXP91",
+      "SXP95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": null,
+      "closing": null,
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "NORTH-003",
+    "name": "HOSPITAL ROAD",
+    "zone": "NORTH",
+    "gpsAddress": "NT-0106-2258",
+    "latitude": 9.40215,
+    "longitude": -0.8398,
+    "products": [
+      "SXP91",
+      "SXP95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": "WAAKYE JOINT"
+    },
+    "hours": {
+      "opening": "05:00",
+      "closing": "10:00PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTHEAST-001",
+    "name": "WINNEBA",
+    "zone": "SOUTH EAST",
+    "gpsAddress": "CE-150-3582",
+    "latitude": 5.34752,
+    "longitude": -0.62595,
+    "products": [
+      "SXP91",
+      "SXP95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": "GIFT/ GLOSSARY SHOP"
+    },
+    "hours": {
+      "opening": "24HRS",
+      "closing": "24HRS",
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTHEAST-002",
+    "name": "AGONA SWEDRU",
+    "zone": "SOUTH EAST",
+    "gpsAddress": "CO-0077-0246",
+    "latitude": 5.53483,
+    "longitude": -0.70425,
+    "products": [
+      "SXP91",
+      "SXP95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": true,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "04:00",
+      "closing": "23:00",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "SOUTHEAST-003",
+    "name": "AGONA MENSAKROM",
+    "zone": "SOUTH EAST",
+    "gpsAddress": "CO-0272-8167",
+    "latitude": 5.59952,
+    "longitude": -0.71903,
+    "products": [
+      "SXP91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": false,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": true,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "04:00",
+      "closing": "22:00",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "MBZ-001",
+    "name": "OBUASI BOETE",
+    "zone": "MBZ",
+    "gpsAddress": "AO-E189-7465",
+    "latitude": 6.19835,
+    "longitude": -1.64506,
+    "products": [
+      "SXP 91",
+      "SXP 95",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "04:00AM",
+      "closing": "12:00PM",
+      "is24Hours": false
+    },
+    "comments": null
+  },
+  {
+    "id": "MBZ-002",
+    "name": "PAKYI NO 1",
+    "zone": "MBZ",
+    "gpsAddress": "AB-1360-3985",
+    "latitude": 6.53515,
+    "longitude": -1.67032,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": true,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "24HRS",
+      "closing": "24HRS",
+      "is24Hours": true
+    },
+    "comments": null
+  },
+  {
+    "id": "MBZ-003",
+    "name": "ANWIANKWANTA",
+    "zone": "MBZ",
+    "gpsAddress": "AB-0527-1857",
+    "latitude": 6.463,
+    "longitude": -1.62512,
+    "products": [
+      "SXP 91",
+      "DXP"
+    ],
+    "services": {
+      "vehicleService": false,
+      "tyreService": false,
+      "washingBay": false
+    },
+    "amenities": {
+      "goCafe": true,
+      "goCard": true,
+      "coupons": true,
+      "bankCards": false,
+      "mobilePay": true,
+      "atm": false,
+      "pharmacy": false,
+      "restaurant": false,
+      "lpgExchange": false,
+      "others": null
+    },
+    "hours": {
+      "opening": "04:00am",
+      "closing": "10:00PM",
+      "is24Hours": false
+    },
+    "comments": null
+  }
+]

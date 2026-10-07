@@ -1,18 +1,16 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
+import { AMENITY_FILTERS } from '../lib/filters';
 import { formatDistanceKm } from '../lib/distance';
 import { ZONE_COLORS } from '../lib/stations';
 import type { Station } from '../lib/types';
 import { colors, radius, spacing, typography } from '../src/theme';
 import { OpenStatusBadge } from './OpenStatusBadge';
 
-const AMENITY_LABELS: { key: keyof Station['amenities']; label: string }[] = [
-  { key: 'goCafe', label: 'Go Café' },
-  { key: 'pharmacy', label: 'Pharmacy' },
-  { key: 'atm', label: 'ATM' },
-  { key: 'restaurant', label: 'Restaurant' },
-];
+// "24 Hours" is already represented by the OpenStatusBadge pill, so skip it here.
+const CARD_AMENITIES = AMENITY_FILTERS.filter((f) => f.key !== 'is24Hours');
+const MAX_VISIBLE_AMENITIES = 2;
 
 interface StationCardProps {
   station: Station;
@@ -29,7 +27,9 @@ export function StationCard({
   isFavorite,
   onToggleFavorite,
 }: StationCardProps) {
-  const topAmenities = AMENITY_LABELS.filter(({ key }) => station.amenities[key]).slice(0, 2);
+  const presentAmenities = CARD_AMENITIES.filter((f) => f.get(station));
+  const topAmenities = presentAmenities.slice(0, MAX_VISIBLE_AMENITIES);
+  const moreCount = presentAmenities.length - topAmenities.length;
 
   return (
     <Pressable onPress={onPress} style={styles.card}>
@@ -58,6 +58,11 @@ export function StationCard({
               <Text style={[typography.bodySm, styles.amenityText]}>{a.label}</Text>
             </View>
           ))}
+          {moreCount > 0 && (
+            <View style={styles.moreChip}>
+              <Text style={[typography.bodySm, styles.moreText]}>+{moreCount} more</Text>
+            </View>
+          )}
         </View>
       )}
 
@@ -139,6 +144,15 @@ const styles = StyleSheet.create({
   },
   amenityText: {
     color: colors.onSurface,
+  },
+  moreChip: {
+    paddingHorizontal: spacing.sm,
+    paddingVertical: 4,
+    borderRadius: radius.md,
+    backgroundColor: colors.surfaceContainer,
+  },
+  moreText: {
+    color: colors.onSurfaceVariant,
   },
   actionsRow: {
     flexDirection: 'row',

@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-import { STATION_FILTERS } from '../lib/filters';
+import { AMENITY_FILTERS } from '../lib/filters';
 import { colors, radius, spacing, typography } from '../src/theme';
 
 interface AmenityFilterGridProps {
@@ -12,7 +12,7 @@ interface AmenityFilterGridProps {
 export function AmenityFilterGrid({ active, onToggle }: AmenityFilterGridProps) {
   return (
     <View style={styles.grid}>
-      {STATION_FILTERS.map((filter) => {
+      {AMENITY_FILTERS.map((filter) => {
         const isActive = active.includes(filter.key);
         return (
           <TouchableOpacity

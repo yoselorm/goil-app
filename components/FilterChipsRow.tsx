@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { ScrollView, StyleSheet, Text, TouchableOpacity } from 'react-native';
 
-import { STATION_FILTERS } from '../lib/filters';
+import { AMENITY_FILTERS } from '../lib/filters';
 import { colors, radius, spacing, typography } from '../src/theme';
 
 interface FilterChipsRowProps {
@@ -12,7 +12,7 @@ interface FilterChipsRowProps {
 export function FilterChipsRow({ active, onToggle }: FilterChipsRowProps) {
   return (
     <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.row}>
-      {STATION_FILTERS.slice(0, 6).map((filter) => {
+      {AMENITY_FILTERS.slice(0, 6).map((filter) => {
         const isActive = active.includes(filter.key);
         return (
           <TouchableOpacity

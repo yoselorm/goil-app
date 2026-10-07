@@ -10,6 +10,7 @@ import { openDirections } from '../../lib/directions';
 import { useFavorites } from '../../lib/favorites';
 import { notifyStationArrival } from '../../lib/geofencing';
 import { getOpenStatus } from '../../lib/openStatus';
+import { getStationProducts } from '../../lib/products';
 import { useRouteState } from '../../lib/RouteContext';
 import { useSettings } from '../../lib/settingsStore';
 import { ZONE_COLORS } from '../../lib/stations';
@@ -37,6 +38,7 @@ export default function StationDetailScreen() {
   const favorite = isFavorite(station.id);
   const openStatus = getOpenStatus(station);
   const locatable = hasCoordinates(station);
+  const products = getStationProducts(station.products);
   const hoursLabel = station.hours.is24Hours
     ? 'Open 24 Hours'
     : station.hours.opening && station.hours.closing
@@ -104,6 +106,28 @@ export default function StationDetailScreen() {
             <Ionicons name="call-outline" size={16} color={colors.onSurfaceVariant} />
             <Text style={[typography.bodyMd, styles.infoText]}>{demoPhone}</Text>
           </Pressable>
+
+          {products.length > 0 && (
+            <View style={styles.productSection}>
+              <Text style={[typography.bodySm, styles.productLabel]}>Fuel products available</Text>
+              <View style={styles.productRow}>
+                {products.map((product) => (
+                  <View key={product} style={styles.productChip}>
+                    <Text style={[typography.labelStatus, styles.productChipText]}>{product}</Text>
+                  </View>
+                ))}
+              </View>
+            </View>
+          )}
+
+          {station.amenities.others && (
+            <View style={styles.otherInfoRow}>
+              <Ionicons name="sparkles-outline" size={16} color={colors.onSurfaceVariant} />
+              <Text style={[typography.bodyMd, styles.infoText]}>
+                Also on-site: {station.amenities.others}
+              </Text>
+            </View>
+          )}
 
           {station.comments && (
             <View style={styles.commentBox}>
@@ -233,7 +257,35 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 6,
-    marginTop: spacing.sm,
+    marginTop: spacing.md,
+  },
+  productSection: {
+    marginTop: spacing.lg,
+  },
+  productLabel: {
+    color: colors.onSurfaceVariant,
+    marginBottom: spacing.xs + 2,
+  },
+  productRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: spacing.xs,
+  },
+  productChip: {
+    paddingHorizontal: spacing.sm + 2,
+    paddingVertical: 4,
+    borderRadius: radius.full,
+    backgroundColor: colors.surfaceContainer,
+  },
+  productChipText: {
+    color: colors.onSurface,
+    textTransform: 'none',
+  },
+  otherInfoRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginTop: spacing.lg,
   },
   commentBox: {
     marginTop: spacing.sm,

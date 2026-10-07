@@ -13,7 +13,7 @@ import {
   SettingsToggleRow,
 } from '../components/SettingsRow';
 import { GEOFENCE_LIMIT, restartGeofencing, stopGeofencing } from '../lib/geofencing';
-import { STATION_FILTERS } from '../lib/filters';
+import { AMENITY_FILTERS } from '../lib/filters';
 import packageJson from '../package.json';
 import { useSettings, type MapProvider } from '../lib/settingsStore';
 import { hasCoordinates } from '../lib/types';
@@ -27,7 +27,7 @@ const MAP_PROVIDERS: { key: MapProvider; label: string; icon: keyof typeof Ionic
   { key: 'waze', label: 'Waze', icon: 'navigate-outline' },
 ];
 
-const DEFAULT_FILTER_OPTIONS = STATION_FILTERS.slice(0, 6);
+const DEFAULT_FILTER_OPTIONS = AMENITY_FILTERS.slice(0, 6);
 
 function formatPermission(status: string | null): string {
   if (status === 'granted') return 'Granted';

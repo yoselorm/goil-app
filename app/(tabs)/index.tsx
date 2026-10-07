@@ -7,6 +7,7 @@ import Animated, { FadeIn, FadeOut, LinearTransition } from 'react-native-reanim
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { FuelPin } from '../../components/FuelPin';
+import { LocationPermissionBanner } from '../../components/LocationPermissionBanner';
 import { OpenStatusBadge } from '../../components/OpenStatusBadge';
 import { RadiusSlider } from '../../components/RadiusSlider';
 import { haversineDistanceKm } from '../../lib/distance';
@@ -195,6 +196,7 @@ export default function MapScreen() {
       )}
 
       <SafeAreaView edges={['top']} style={styles.topOverlay}>
+        <LocationPermissionBanner />
         <Animated.View style={styles.radiusCard} layout={LinearTransition.duration(250)}>
           <View style={styles.locationRow}>
             <Ionicons name="location" size={14} color={colors.secondary} />

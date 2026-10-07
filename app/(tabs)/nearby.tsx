@@ -5,6 +5,7 @@ import { ActivityIndicator, FlatList, Pressable, StyleSheet, Text, TextInput, Vi
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { FilterChipsRow } from '../../components/FilterChipsRow';
+import { LocationPermissionBanner } from '../../components/LocationPermissionBanner';
 import { StationCard } from '../../components/StationCard';
 import { haversineDistanceKm } from '../../lib/distance';
 import { useFavorites } from '../../lib/favorites';
@@ -60,6 +61,8 @@ export default function NearbyScreen() {
           <Ionicons name="settings-outline" size={24} color={colors.onSurfaceVariant} />
         </Pressable>
       </View>
+
+      <LocationPermissionBanner />
 
       <View style={styles.searchBar}>
         <Ionicons name="search" size={18} color={colors.onSurfaceVariant} />

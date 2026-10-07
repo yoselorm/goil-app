@@ -9,7 +9,7 @@ import { RadiusSlider } from '../../components/RadiusSlider';
 import { ZoneChips } from '../../components/ZoneChips';
 import { haversineDistanceKm } from '../../lib/distance';
 import { useFilterState } from '../../lib/FilterContext';
-import { matchesFilters, matchesSearch, matchesZones } from '../../lib/filters';
+import { AMENITY_FILTERS, matchesFilters, matchesSearch, matchesZones, PRODUCT_FILTERS } from '../../lib/filters';
 import { hasCoordinates } from '../../lib/types';
 import { useCurrentLocation } from '../../lib/useCurrentLocation';
 import { useStations } from '../../lib/useStations';
@@ -29,6 +29,10 @@ export default function FilterScreen() {
     setSearchRadiusKm,
     resetFilters,
   } = useFilterState();
+
+  const activeAmenityCount = activeAmenityFilters.filter((key) =>
+    AMENITY_FILTERS.some((f) => f.key === key)
+  ).length;
 
   const matchingCount = useMemo(() => {
     return stations.filter(
@@ -72,10 +76,39 @@ export default function FilterScreen() {
         <Text style={[typography.headlineSm, styles.sectionTitle]}>Zone</Text>
         <ZoneChips active={activeZones} onToggle={toggleZone} />
 
+        <View>
+          <Text style={[typography.headlineSm, styles.sectionTitle]}>Fuel Products</Text>
+          <View style={styles.productRow}>
+            {PRODUCT_FILTERS.map((filter) => {
+              const isActive = activeAmenityFilters.includes(filter.key);
+              return (
+                <Pressable
+                  key={filter.key}
+                  onPress={() => toggleAmenityFilter(filter.key)}
+                  style={[styles.productChip, isActive && styles.productChipActive]}>
+                  <Ionicons
+                    name={filter.icon as keyof typeof Ionicons.glyphMap}
+                    size={14}
+                    color={isActive ? colors.onPrimary : colors.onSurfaceVariant}
+                  />
+                  <Text
+                    style={[
+                      typography.labelButton,
+                      styles.productChipText,
+                      isActive && styles.productChipTextActive,
+                    ]}>
+                    {filter.label}
+                  </Text>
+                </Pressable>
+              );
+            })}
+          </View>
+        </View>
+
         <View style={styles.sectionHeaderRow}>
           <Text style={[typography.headlineSm, styles.sectionTitle]}>Amenities &amp; Services</Text>
           <Text style={[typography.labelStatus, styles.activeCount]}>
-            {activeAmenityFilters.length} active
+            {activeAmenityCount} active
           </Text>
         </View>
         <AmenityFilterGrid active={activeAmenityFilters} onToggle={toggleAmenityFilter} />
@@ -173,6 +206,34 @@ const styles = StyleSheet.create({
   },
   activeCount: {
     color: colors.secondary,
+  },
+  productRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: spacing.xs,
+    marginTop: spacing.sm,
+  },
+  productChip: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    paddingHorizontal: spacing.sm + 2,
+    paddingVertical: spacing.xs + 2,
+    borderRadius: radius.full,
+    backgroundColor: colors.surfaceContainerLowest,
+    shadowColor: '#000',
+    shadowOpacity: 0.04,
+    shadowRadius: 4,
+    shadowOffset: { width: 0, height: 1 },
+  },
+  productChipActive: {
+    backgroundColor: colors.primaryContainer,
+  },
+  productChipText: {
+    color: colors.onSurfaceVariant,
+  },
+  productChipTextActive: {
+    color: colors.onPrimary,
   },
   radiusSection: {
     gap: spacing.sm,
